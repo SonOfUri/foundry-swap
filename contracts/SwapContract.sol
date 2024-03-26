@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "../contracts/interface/IERC20.sol";
-import {AggregatorV3Interface} from "lib/chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
+import {AggregatorV3Interface} from "../lib/chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 
 contract SwapContract {
